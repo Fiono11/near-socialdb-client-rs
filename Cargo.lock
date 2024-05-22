@@ -1493,8 +1493,8 @@ dependencies = [
 
 [[package]]
 name = "near-jsonrpc-client"
-version = "0.9.0"
-source = "git+https://github.com/Fiono11/near-jsonrpc-client-rs?branch=olaf#95708b5eaeee9b8766fb30da281dce2b4e2c203d"
+version = "0.8.0"
+source = "git+https://github.com/Fiono11/near-jsonrpc-client-rs?rev=8f9b025bf7b9ffe0105578963e81b9d69aa23145#8f9b025bf7b9ffe0105578963e81b9d69aa23145"
 dependencies = [
  "borsh",
  "lazy_static",

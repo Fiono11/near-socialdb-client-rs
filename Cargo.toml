@@ -17,7 +17,7 @@ url = { version = "2", features = ["serde"] }
 
 near-crypto = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-crypto" }
 near-primitives = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-primitives" }
-near-jsonrpc-client = { git = "https://github.com/Fiono11/near-jsonrpc-client-rs", branch = "olaf" }
+near-jsonrpc-client = { git = "https://github.com/Fiono11/near-jsonrpc-client-rs", rev = "8f9b025bf7b9ffe0105578963e81b9d69aa23145" }
 near-jsonrpc-primitives = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-jsonrpc-primitives" }
 
 near-token = "0.2.0"
