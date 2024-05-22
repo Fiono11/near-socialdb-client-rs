@@ -15,9 +15,9 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0.57"
 url = { version = "2", features = ["serde"] }
 
-near-crypto = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-crypto" }
-near-primitives = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-primitives" }
-near-jsonrpc-client = { git = "https://github.com/Fiono11/near-jsonrpc-client-rs", rev = "8f9b025bf7b9ffe0105578963e81b9d69aa23145" }
-near-jsonrpc-primitives = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-jsonrpc-primitives" }
+near-crypto = { git = "https://github.com/Fiono11/nearcore", rev = "f274531309f0c24ef9d5a4ef30028dbde55590e8", package = "near-crypto" }
+near-primitives = { git = "https://github.com/Fiono11/nearcore", rev = "f274531309f0c24ef9d5a4ef30028dbde55590e8", package = "near-primitives" }
+near-jsonrpc-client = { git = "https://github.com/Fiono11/near-jsonrpc-client-rs", rev = "0b24df63fff0c2a1752817fd3bb1394a496ee967" }
+near-jsonrpc-primitives = { git = "https://github.com/Fiono11/nearcore", rev = "f274531309f0c24ef9d5a4ef30028dbde55590e8", package = "near-jsonrpc-primitives" }
 
 near-token = "0.2.0"
