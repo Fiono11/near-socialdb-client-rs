@@ -48,7 +48,7 @@ struct IsWritePermissionGrantedInputArgs {
     permission_key: PermissionKey,
 }
 
-/*pub async fn is_write_permission_granted<P: Into<PermissionKey>>(
+pub async fn is_write_permission_granted<P: Into<PermissionKey>>(
     json_rpc_client: &near_jsonrpc_client::JsonRpcClient,
     near_social_account_id: &near_primitives::types::AccountId,
     permission_key: P,
@@ -87,7 +87,7 @@ struct IsWritePermissionGrantedInputArgs {
         })?;
     let result = serde_call_result.as_bool().expect("Unexpected response");
     Ok(result)
-    }*/
+}
 
 pub fn is_signer_access_key_function_call_access_can_call_set_on_social_db_account(
     near_social_account_id: &near_primitives::types::AccountId,
@@ -106,7 +106,7 @@ pub fn is_signer_access_key_function_call_access_can_call_set_on_social_db_accou
     }
 }
 
-/*pub async fn get_access_key_permission(
+pub async fn get_access_key_permission(
     json_rpc_client: &near_jsonrpc_client::JsonRpcClient,
     account_id: &near_primitives::types::AccountId,
     public_key: &near_crypto::PublicKey,
@@ -132,7 +132,7 @@ pub fn is_signer_access_key_function_call_access_can_call_set_on_social_db_accou
         };
 
     Ok(permission)
-    }
+}
 
 pub async fn get_deposit(
     json_rpc_client: &near_jsonrpc_client::JsonRpcClient,
@@ -264,7 +264,7 @@ pub async fn required_deposit(
         estimated_storage_balance,
         min_storage_balance,
     )))
-    }*/
+}
 
 /// https://github.com/NearSocial/VM/blob/24055641b53e7eeadf6efdb9c073f85f02463798/src/lib/data/utils.js#L182-L198
 fn estimate_data_size(data: &serde_json::Value, prev_data: Option<&serde_json::Value>) -> isize {

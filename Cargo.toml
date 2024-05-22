@@ -15,11 +15,6 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0.57"
 url = { version = "2", features = ["serde"] }
 
-#near-crypto = "0.21.1"
-#near-primitives = "0.21.1"
-#near-jsonrpc-client = "0.9.0"
-#near-jsonrpc-primitives = "0.21.1"
-
 near-crypto = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-crypto" }
 near-primitives = { git = "https://github.com/Fiono11/nearcore", branch = "olaf", package = "near-primitives" }
 near-jsonrpc-client = { git = "https://github.com/Fiono11/near-jsonrpc-client-rs", branch = "olaf" }
